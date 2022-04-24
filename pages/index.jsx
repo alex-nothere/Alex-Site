@@ -34,42 +34,34 @@ export default function Homepage({ user, cards, error }) {
                             }
                         </div>
                         <div className={style.badges} style={(user?.status?.emote || user?.status?.text) ? { marginTop: 8 } : { marginTop: width > 540 ? 14 : 4 }}>
-                            <button className={style.badge} title='https://waya.one/go/blog_be499f28-b1ac-48da-b0fa-13a21c12d173' onClick={() => window.open('https://waya.one/go/blog_be499f28-b1ac-48da-b0fa-13a21c12d173')}> <HiOutlineFire style={{ height: 22, width: 22, marginRight: 4 }} /> UI&nbsp;Designer </button>
-                            <button className={style.badge} title='https://waya.one/go/github' onClick={() => window.open('https://waya.one/go/github')}> <HiOutlineCode style={{ height: 22, width: 22, marginRight: 4 }} /> Developer </button>
+                            {/*<button className={style.badge} title='https://waya.one/go/blog_be499f28-b1ac-48da-b0fa-13a21c12d173' onClick={() => window.open('https://waya.one/go/blog_be499f28-b1ac-48da-b0fa-13a21c12d173')}> <HiOutlineFire style={{ height: 22, width: 22, marginRight: 4 }} /> UI&nbsp;Designer </button>*/}
+                            <button className={style.badge} title='https://github.com/alex-nothere' onClick={() => window.open('https://github.com/alex-nothere')}> <HiOutlineCode style={{ height: 22, width: 22, marginRight: 4 }} /> Developer </button>
                         </div>
                     </div>
                     <div className={style.content}>
                         <div className={style.readme}>
                             <strong style={{ fontSize: 27 }}>👋 About me</strong> <br />
                             <div style={{ marginTop: 8, marginLeft: 12, display: 'block' }}>
-                                I'm <strong>Luna</strong>, born at <strong>17th of April</strong> and currently live in <strong>Austria</strong> near Vienna.. I'm some hobby <strong>Software Engineer</strong> and <strong>LGBTQ+ Activist</strong>.
-                                I'm a proud <strong>Lesbian</strong> <img src='https://cdn.discordapp.com/emojis/750307298827567236.png?size=20&quality=lossless' style={{ position: 'relative', top: 5 }} draggable={false} /> and currently have a crush haha
+                                I'm <strong>Alex</strong>, born at <strong>17th Febuary</strong> and currently live in Scotland. In my spare time (known as not being in school) I'm a software developer and
+                                I'm a proud <strong>Demi-Sexual</strong> <img src='https://cdn.discordapp.com/emojis/967838431734554664.png?size=20&quality=lossless' style={{ position: 'relative', top: 1 }} draggable={false} /> :)
 
                                 <br />
                                 <br />
 
-                                I'm <strong>female</strong> and my pronouns are <strong>She/Her</strong> <img src='https://cdn.discordapp.com/emojis/959513603134853180.png?size=20&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />, in my free time I  love to <strong>code Discord bots</strong>, websites in general and I'm a <strong>single developer</strong>. <img src='https://cdn.discordapp.com/emojis/959513603009028146.png?size=20&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />
-
-                                <br />
-                                <br />
-
-                                I currently mainly work at my <strong>heart project @Waya</strong> - a multi-function bot <br />
-                                with the main weight on <strong>Pronouns</strong> and <strong>Server Moderation</strong>. <br />
-                                You can learn more about it at <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://waya.one')}>https://waya.one</button> <img src='https://cdn.discordapp.com/emojis/959513603097116763.png?size=20&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />
+                                I'm <strong>female</strong> and my pronouns are <strong>She/Her</strong> <img src='https://cdn.discordapp.com/emojis/959513603134853180.png?size=20&quality=lossless' style={{ position: 'relative', top: 3 }} draggable={false} />
                             </div>
                             <br />
                             <strong style={{ fontSize: 27 }}>🪄 Languages</strong><br />
                             <div style={{ marginTop: 8, marginLeft: 12 }}>
                                 •&nbsp; JavaScript, Node.JS<br />
-                                •&nbsp; Next.JS, Express<br />
+                                •&nbsp; Express<br />
                                 •&nbsp; HTML, CSS<br />
                                 •&nbsp; MongoDB<br />
                             </div>
                             <br />
                             <strong style={{ fontSize: 27 }}>🍧 Contact</strong><br />
                             <div style={{ marginTop: 8, marginLeft: 12 }}>
-                                You want to collaborate with me or just want to have a nice talk in with my community? <br />
-                                Feel free to join my <button className='link' style={{ fontSize: '1.1rem' }} onClick={() => window.open('https://waya.one/go/discord')}>Discord server</button> and shoot a ping at me!
+                                Want to collab on something ot just have a random chat? Just DM me on Discord (person-al#9861) :)
                             </div>
                         </div>
                         <div className={user?.activities.length > 0 ? style.section : ''}>

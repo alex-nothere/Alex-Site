@@ -1,36 +1,36 @@
 module.exports = {
     api: {
-        url: 'http://whois.waya.one',
-        path: '/'
+        url: null,
+        path: null
     },
     user: {
-        id: "821472922140803112",
-        username: "Lunish",
+        id: "942554411199266826",
+        username: "person-al",
         discriminator: "8888",
-        nickname: "Luna",
-        nickavatar: "https://cdn.waya.one/r/cat_luna.png",
+        nickname: "Alex",
+        nickavatar: "https://cdn.discordapp.com/avatars/942554411199266826/f28b2d403d55f6c767a24e34c4f87c3b.png",
         status: {
             state: {
                 text: "dnd",
                 color: "#ED4245"
             },
             emote: "https://cdn.discordapp.com/emojis/682858108862726191.gif?size=2048",
-            text: "waya.one • Stressed out"
+            text: "struggling"
         },
         activities: [],
         createdTimestamp: 1615924806867,
-        avatar: "https://cdn.waya.one/r/cat_luna.png",
+        avatar: "https://cdn.discordapp.com/avatars/942554411199266826/f28b2d403d55f6c767a24e34c4f87c3b.png",
         banner: "https://cdn.waya.one/r/sunset.gif",
         accentColor: "#ce3760"
     },
     cards: [{
-        name: 'Waya',
-        icon: 'https://cdn.discordapp.com/avatars/857230367350063104/a54dbb364757f99076f36003ae68f77f.png?size=1024',
-        description: 'A simple multi-function bot with Pronouns Select, Starboard and more.',
-        url: 'https://waya.one',
-        position: `Founder, Developer`,
+        name: 'Tram',
+        icon: 'https://cdn.discordapp.com/avatars/964952222758748210/be4f1dd383f8bd101f53f388388963ed.png',
+        description: 'An event management bot, with some fun commands as well! ',
+        url: 'https://discord.com',
+        position: `Founder, Developer`, 
         bot: 2
-    }, {
+    }
         //     name: 'Dasu',
         //     icon: 'https://cdn.discordapp.com/avatars/525748238255390721/8787f4919607add166979e0d9578b9fb.png?size=1024',
         //     description: 'Utilize powerful rules and control your giveaways with no limitations.',
@@ -52,31 +52,20 @@ module.exports = {
         //     position: `Developer`,
         //     bot: 2
         // }, {
-        name: 'discord-botlist.eu',
-        icon: 'https://cdn.discord-botlist.eu/pictures/logo.png',
-        description: 'We give you the ability to apply and give your bot a page on our site.',
-        url: 'https://discord-botlist.eu',
-        position: `Moderator`
-    }, {
-        name: 'Tixte',
-        icon: 'https://tixte.com/static/media/logo_mark.d3b45ae2.png',
-        description: 'The fast, free and easy way to upload and store your files in the cloud.',
-        url: 'https://discord.gg/vWcEAX5G4B',
-        position: `Moderator`
-    }],
+    ],
     header: {
-        icon: `https://cdn.waya.one/r/cat_luna.png`,
-        name: `Lunish`,
+        icon: `https://cdn.discordapp.com/avatars/942554411199266826/f28b2d403d55f6c767a24e34c4f87c3b.png`,
+        name: `person-al`,
         buttons: {
             Discord: `/go/discord`,
-            GitHub: `/go/github`,
+            GitHub: `https://github.com/alex-nothere`,
             Twitter: `/go/twitter`
         }
     },
     metadata: {
-        title: `Luna - Software Engineer and LGBTQ+ Activist`,
+        title: `Alex - Dev Person and Trans`,
         description: `Heyia, I'm Luna and I was born 14 years ago and live in Austria.`,
-        image: `https://avatars.githubusercontent.com/u/71079641?v=4`,
+        image: `https://cdn.discordapp.com/avatars/942554411199266826/f28b2d403d55f6c767a24e34c4f87c3b.png`,
         domainName: `waya.one`,
         color: `#f19bec`,
         keywords: [
@@ -86,7 +75,6 @@ module.exports = {
             'Lunish Twitter',
             'Lunish Discord',
             'Lunish GitHub',
-            'Lunish Onlyfans',
             'waya bot',
             'waya',
             'waya.one',
